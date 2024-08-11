@@ -16,12 +16,7 @@ Simulation of inverted pendulum on cart system with actuator dynamics with PD,LQ
 ## Introduction
 This github repo was created primarily for students (or anyone interested) in control systems (particularly, self-balancing and underatuated systems) geared towards robotics. The system in this example consists of an inverted pendulum mounted to a motorized cart. The inverted pendulum system is an example commonly found in control system textbooks and research literature. Its popularity derives in part from the fact that it is unstable without control, that is, the pendulum will simply fall over if the cart isn't moved to balance it. Additionally, the dynamics of the system are nonlinear. The objective of the control system is to balance the inverted pendulum by applying a force to the cart that the pendulum is attached to. A real-world example that relates directly to this inverted pendulum system is the attitude control of a booster rocket at takeoff. This inverted pendulum model is a canonical example for quickly testing the performance of different controller designs (much like the MNIST dataset for classifying accuracy of different machine-learning models https://yann.lecun.com/exdb/mnist/).  
 
-In this work, we introduced three different controllers: Linear-Quadratic Regulator (LQR), Proportional-Derivative (PD), and Model Predictive Control (MPC). The detailed equations and control design are explained in the paper and lower level functions. Also we added motor parameters (e.g., saturation voltage) to add more realism to the system. Given the inertial and geometric properties of the system, the main Matlab script ("MAIN.m") computes the states (e.g., cart position, cart speed, motor effort) of the cart and outputs 2D animation of the cart motion along with some helpful kinematic/kinetic plots. The code is structured so that you can add your own controller designs. Hope you have fun! See the video below for an LQR animation example:
-
-
-
-Uploading lqr_animation.mp4…
-
+In this work, we introduced three different controllers: Linear-Quadratic Regulator (LQR), Proportional-Derivative (PD), and Model Predictive Control (MPC). The detailed equations and control design are explained in the paper and lower level functions. Also we added motor parameters (e.g., saturation voltage) to add more realism to the system. Given the inertial and geometric properties of the system, the main Matlab script ("MAIN.m") computes the states (e.g., cart position, cart speed, motor effort) of the cart and outputs 2D animation of the cart motion along with some helpful kinematic/kinetic plots. The code is structured so that you can add your own controller designs. Hope you have fun!
 
 
 ## Using the Code
