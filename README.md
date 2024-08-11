@@ -1,6 +1,8 @@
 # Inverted_Pendulum_Cart_Simulation
 Simulation of inverted pendulum on cart system with actuator dynamics with PD,LQR,MPC using MATLAB and Simulink. For video explaination: 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/VSngcnpMrpw?si=Thw2rWU8u9u71YGu/0.jpg)](https://youtu.be/VSngcnpMrpw?si=Thw2rWU8u9u71YGu)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/VSngcnpMrpw?si=jZtAW90x4YXA8ciP/0.jpg)](https://youtu.be/VSngcnpMrpw?si=jZtAW90x4YXA8ciP)
+
+
 
 *Abstract* — Recently, a major interest has emerged for controlling underactuated mechanical systems, specifically inverted pendulum on a cart system, in many practical applications. However, studies used different and unrealistic models of the system, so the comparison between different controllers from different studies was difficult. Thus, the goal of this study was to design and analyze the performances of three controllers (i.e., LQR, PD, MPC) to achieve the control objective on a virtual inverted pendulum on cart system with actuator dynamics and constraints. The dynamics equations of motion were determined using Euler-Langrangian equations and linearized at the point of equilibrium to generate a linear time invariant state space model. Tracking performances (e.g., settling time, rise time), energy usage (e.g., cost of transportation), and computational time were calculated for each controller. The results indicated that MPC had the best tracking performance (e.g., shortest settling time of 11.9s and 0.1s for cart position and pendulum) and energy usage (e.g., 80% less cost of transportation for cart position) but longest computational time (e.g., 4.12 s), while LQR and PD controller displayed similar tracking performances and energy usage but shortest computational time. The LQR design process was the most intuitive due to its ability to directly tune the most relevant control parameters such as the weights on tracking performance (Q) and control effort (R).
 
